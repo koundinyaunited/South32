@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="impact" label="Impact" language="en" table="x_187243_south32_priority_datalookup">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>impact</element>
+            <help/>
+            <hint/>
+            <label>Impact</label>
+            <language>en</language>
+            <name>x_187243_south32_priority_datalookup</name>
+            <plural>Impacts</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-01-24 10:53:47</sys_created_on>
+            <sys_id>a6b72c48db932300bae7874239961973</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Impact</sys_name>
+            <sys_package display_value="South32" source="x_187243_south32">788a5c37db032300bae7874239961977</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="South32">788a5c37db032300bae7874239961977</sys_scope>
+            <sys_update_name>sys_documentation_x_187243_south32_priority_datalookup_impact_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-01-24 10:53:47</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_reference_23" label="Raised For" language="en" table="x_187243_south32_incidents">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_reference_23</element>
+            <help/>
+            <hint/>
+            <label>Raised For</label>
+            <language>en</language>
+            <name>x_187243_south32_incidents</name>
+            <plural>Raised Fors</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-01-24 07:28:32</sys_created_on>
+            <sys_id>0cc837bfdb032300bae7874239961966</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Raised For</sys_name>
+            <sys_package display_value="South32" source="x_187243_south32">788a5c37db032300bae7874239961977</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="South32">788a5c37db032300bae7874239961977</sys_scope>
+            <sys_update_name>sys_documentation_x_187243_south32_incidents_u_reference_23_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-01-24 07:28:32</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

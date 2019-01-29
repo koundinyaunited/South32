@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="urgency" table="x_187243_south32_priority_datalookup" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>urgency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>1 - High</label>
+            <language>en</language>
+            <name>x_187243_south32_priority_datalookup</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-01-24 11:29:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9adf608cdb932300bae7874239961929</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-01-24 11:29:33</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>urgency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>2 - Medium</label>
+            <language>en</language>
+            <name>x_187243_south32_priority_datalookup</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-01-24 11:29:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a1efe48cdb932300bae787423996199a</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-01-24 11:29:48</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>urgency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>3 - Low</label>
+            <language>en</language>
+            <name>x_187243_south32_priority_datalookup</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-01-24 11:29:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e9ff6c8cdb932300bae787423996199b</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-01-24 11:29:58</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>urgency</element>
+            <name>x_187243_south32_priority_datalookup</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-01-24 11:29:28</sys_created_on>
+            <sys_id>e1ef6c8cdb932300bae7874239961995</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>urgency</sys_name>
+            <sys_package display_value="South32" source="x_187243_south32">788a5c37db032300bae7874239961977</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="South32">788a5c37db032300bae7874239961977</sys_scope>
+            <sys_update_name>sys_choice_x_187243_south32_priority_datalookup_urgency</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-01-24 11:29:28</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

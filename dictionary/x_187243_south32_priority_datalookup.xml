@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="update_synch=true" extends="dl_matcher" label="Priority Datalookup" max_length="40" name="x_187243_south32_priority_datalookup" type="collection">
+        <element choice="3" default="3" label="Impact" max_length="40" name="impact" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="1 - High" value="1"/>
+                <element inactive_on_update="false" label="2 - Medium" value="2"/>
+                <element inactive_on_update="false" label="3 - Low" value="3"/>
+            </choice>
+        </element>
+        <element choice="1" default="4" label="Priority" max_length="40" name="priority" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="1 - Urgent" value="1"/>
+                <element inactive_on_update="false" label="2 - High" value="2"/>
+                <element inactive_on_update="false" label="3 - Medium" value="3"/>
+                <element inactive_on_update="false" label="4 - Low" value="4"/>
+            </choice>
+        </element>
+        <element choice="3" default="3" label="Urgency" max_length="40" name="urgency" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="1 - High" value="1"/>
+                <element inactive_on_update="false" label="2 - Medium" value="2"/>
+                <element inactive_on_update="false" label="3 - Low" value="3"/>
+            </choice>
+        </element>
+    </element>
+</database>

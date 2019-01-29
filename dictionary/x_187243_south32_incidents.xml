@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="Incidents" max_length="40" name="x_187243_south32_incidents" type="collection">
+        <element label="Knowledge Candidate" max_length="40" name="u_boolean_31" type="boolean"/>
+        <element label="First-call Resolution" max_length="40" name="u_boolean_32" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Close Code" max_length="40" name="u_choice_30" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Choice 1" sequence="0" value="Choice 1"/>
+                <element inactive_on_update="false" label="Choice 2" sequence="1" value="Choice 2"/>
+                <element inactive_on_update="false" label="Choice 3" sequence="2" value="Choice 3"/>
+            </choice>
+        </element>
+        <element label="Resolved Time" max_length="40" name="u_glide_date_time_29" read_only="true" type="glide_date_time"/>
+        <element default="javascript:gs.getUserID();" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="Raised By" mandatory="true" max_length="32" name="u_reference_22" reference="sys_user" type="reference" use_dynamic_default="true"/>
+        <element default="gs.getUserName()" label="Raised For" mandatory="true" max_length="32" name="u_reference_23" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" dependent="u_string_12" dependent_on_field="u_string_12" label="Travelling Location" max_length="40" name="u_string_12" type="string" use_dependent_field="true"/>
+        <element attributes="edge_encryption_enabled=true" dependent="u_string_13" dependent_on_field="u_string_13" label="Travelling Contact Number" max_length="40" name="u_string_13" type="string" use_dependent_field="true"/>
+        <element attributes="edge_encryption_enabled=true" dependent="u_string_15" dependent_on_field="u_string_15" label="Customer Comments" max_length="40" name="u_string_15" type="string" use_dependent_field="true"/>
+        <element attributes="edge_encryption_enabled=true" dependent="u_string_16" dependent_on_field="u_string_16" label="Problem" max_length="40" name="u_string_16" type="string" use_dependent_field="true"/>
+        <element attributes="edge_encryption_enabled=true" dependent="u_string_17" dependent_on_field="u_string_17" label="Solved By Change" max_length="40" name="u_string_17" type="string" use_dependent_field="true"/>
+        <element attributes="edge_encryption_enabled=true" dependent="u_string_18" dependent_on_field="u_string_18" label="Caused By Change" max_length="40" name="u_string_18" type="string" use_dependent_field="true"/>
+        <element attributes="edge_encryption_enabled=true" dependent="u_string_19" dependent_on_field="u_string_19" label="Knowledge" max_length="40" name="u_string_19" type="string" use_dependent_field="true"/>
+        <element attributes="edge_encryption_enabled=true" dependent="u_string_20" dependent_on_field="u_string_20" label="Raised For" mandatory="true" max_length="40" name="u_string_20" type="string" use_dependent_field="true"/>
+        <element attributes="edge_encryption_enabled=true" dependent="u_string_21" dependent_on_field="u_string_21" label="Raised By" mandatory="true" max_length="40" name="u_string_21" type="string" use_dependent_field="true"/>
+        <element attributes="edge_encryption_enabled=true" label="Resolved By" max_length="40" name="u_string_25" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Closed" max_length="40" name="u_string_27" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" dependent="u_string_5" dependent_on_field="u_string_5" label="Preffered Contact Number" max_length="40" name="u_string_5" type="string" use_dependent_field="true"/>
+        <element attributes="edge_encryption_enabled=true" dependent="u_string_7" dependent_on_field="u_string_7" label="Category" mandatory="true" max_length="40" name="u_string_7" type="string" use_dependent_field="true"/>
+        <element attributes="edge_encryption_enabled=true" dependent="u_string_8" dependent_on_field="u_string_8" label="Sub Category" mandatory="true" max_length="40" name="u_string_8" type="string" use_dependent_field="true"/>
+        <element attributes="edge_encryption_enabled=true" dependent="u_string_9" dependent_on_field="u_string_9" label="Asset Tag" max_length="40" name="u_string_9" type="string" use_dependent_field="true"/>
+    </element>
+</database>

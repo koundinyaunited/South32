@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="close_notes" label="Close Notes" language="en" table="x_187243_south32_incidents">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>close_notes</element>
+            <help/>
+            <hint/>
+            <label>Close Notes</label>
+            <language>en</language>
+            <name>x_187243_south32_incidents</name>
+            <plural>Close Notes</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-01-24 07:34:46</sys_created_on>
+            <sys_id>ab2a37ffdb032300bae787423996198d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Close Notes</sys_name>
+            <sys_package display_value="South32" source="x_187243_south32">788a5c37db032300bae7874239961977</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="South32">788a5c37db032300bae7874239961977</sys_scope>
+            <sys_update_name>sys_documentation_x_187243_south32_incidents_close_notes_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-01-24 07:34:46</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
